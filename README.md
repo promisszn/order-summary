@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/promisszn/order-summary)
-- Live Site URL: [Add live site URL here](https://promisszn.github.io/order-summary/)
+- Solution URL: [View solution code here](https://github.com/promisszn/order-summary)
+- Live Site URL: [View live site here](https://promisszn.github.io/order-summary/)
 
 ## My process
 
