@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background: hsl(225, 100%, 94%) url('images/pattern-background-mobile.svg') no-repeat;
+    background-size: contain;
+    width: 90%;
+}
+
+.whole{
+    display: block;
+    margin: 0 auto;
+    border: 1px hidden;
+    border-radius: 25px;
+    width: 375px;
+    box-shadow: 0px 10px 19px -2px hsl(224, 23%, 55%);
+    z-index: 1;
+    margin-top: 4rem;
+    background-color: #fff;
+}
+
+.top img{
+    width: 375px;
+    border-radius: 25px 25px 0 0;
+}
+
+.top h1{
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.top p{
+    text-align: center;
+    padding: 0 2rem;
+    color: hsl(224, 23%, 55%);
+    line-height: 2rem;
+}
+
+.middle{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.in-middle{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 40%;
+}
+
+.in-middle h4{
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: hsl(223, 47%, 23%);
+}
+
+.in-middle p{
+    padding-top: 5px;
+    margin-top: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+.middle a{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.middle a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.bottom{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bottom button{
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: medium;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 10px 19px -2px hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+.bottom button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.bottom a{
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    opacity: 0.7;
+    margin-bottom: 40px;
+    color: hsl(223, 47%, 23%);
+}
+
+.bottom a:hover{
+    opacity: 1;
+}
+
+@media only screen and (min-width: 800px){
+    body{
+        background: hsl(225, 100%, 94%) url('images/pattern-background-desktop.svg') no-repeat;
+        background-size: contain;
+    }
+}
